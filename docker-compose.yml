@@ -2,7 +2,8 @@ version: '3.8'
 
 services:
   lumaai:
-    build: ./teste_lumaai
+    build:
+      context: .
     container_name: lumaai_app
     ports:
       - "5000:5000"
