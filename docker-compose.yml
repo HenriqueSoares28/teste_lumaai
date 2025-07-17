@@ -4,7 +4,7 @@ services:
   lumaai:
     build:
       context: .
-    container_name: lumaai_app
+    container_name: lumaai_streamlit
     ports:
-      - "5000:5000"
+      - "8501:8501"
     restart: unless-stopped
