@@ -1,0 +1,4 @@
+requests
+lumaai
+python-dotenv
+streamlit
